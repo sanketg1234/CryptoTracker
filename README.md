@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-   <a><img src="https://github.com/user-attachments/assets/c53f75b8-7774-4821-a286-b8c3c286230e" alt="Main-Cover" border="0"></a>
+   <a><img src="frontend/src/assets/image.png" alt="Main-Cover" border="0"></a>
    <h1>Crypto Tracker</h1>
   <br />
 
