@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const cors = require("cors");
 
-const dbConnection = require("./dbConnection");
+const dbConnection = require("./db/dbConnection");
 
 app.use(express.json());
 app.use(cors({ origin: "http://localhost:3001", credentials: true }));
