@@ -1,6 +1,6 @@
 const users = require("../models/users");
 const bcrypt = require("bcrypt");
-
+//login user
 exports.login = async (req, res) => {
   const isEmailthere = await users.findOne({ email: req.body.email });
 
@@ -26,6 +26,7 @@ exports.login = async (req, res) => {
   }
 };
 
+//create user
 exports.createUser = async (req, res) => {
   const isUserPresent = await users.findOne({ email: req.body.email });
 
