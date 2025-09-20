@@ -4,6 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const cors = require("cors");
 
+//importing db connection
 const dbConnection = require("./db/dbConnection");
 
 app.use(express.json());
@@ -11,6 +12,7 @@ app.use(cors({ origin: "http://localhost:3001", credentials: true }));
 
 app.use("/api/v1", require("./routes/routes"));
 
+//server listening
 app.listen(port, () => {
   dbConnection();
   console.log("App is listening on port " + port);
