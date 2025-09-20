@@ -1,5 +1,5 @@
 import React from "react";
-
+//dummy ui component
 const DummyUi = () => {
   return (
     <section className="bg-white ">

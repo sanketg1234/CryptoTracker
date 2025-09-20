@@ -4,7 +4,7 @@ import { FaArrowTrendDown, FaArrowTrendUp } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { handleAddcoin, handleremovecoin } from "../store/watchlistSlice";
-
+//card component
 const Card = ({ item, checker }) => {
   const watchlistData = useSelector((store) => store.watchlist);
 

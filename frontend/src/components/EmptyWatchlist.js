@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineAddCircleOutline } from "react-icons/md";
-
+//empty watchlist component
 const EmptyWatchlist = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">

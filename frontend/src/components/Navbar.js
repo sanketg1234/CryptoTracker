@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { removeuser } from "../store/userSlice";
 import { FaBars, FaTimes } from "react-icons/fa"; // Importing hamburger and close icons
 
+//navbar component
 function Navbar() {
   const user = useSelector((store) => store.user);
   const dispatch = useDispatch();
