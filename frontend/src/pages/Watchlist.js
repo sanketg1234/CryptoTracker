@@ -3,7 +3,7 @@ import Cards from "../components/Cards";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import EmptyWatchlist from "../components/EmptyWatchlist";
-
+//watchlist component
 const Watchlist = ({}) => {
   const user = useSelector((store) => store.user);
   const watchlistData = useSelector((store) => store.watchlist);

@@ -4,6 +4,7 @@ import { useRef } from "react";
 import DummyUi from "../components/DummyUi";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+//top 10 component
 const Top10 = () => {
   const [data, setData] = useState([]);
 

@@ -3,6 +3,7 @@ import Cards from "../components/Cards";
 import DummyUi from "../components/DummyUi";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
+//trending component
 function Trending() {
   const [data, setData] = useState([]);
 

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import DummyUi from "../components/DummyUi";
 
+//coin by id data component
 const CoinByIdData = () => {
   const [coinData, setCoinData] = useState(null); // State to hold the coin data
   const { id } = useParams(); // Get the ID from the URL parameters

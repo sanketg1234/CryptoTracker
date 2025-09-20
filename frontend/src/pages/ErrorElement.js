@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+//error element component
 const ErrorElement = () => {
   return (
     <div className="flex items-center justify-center w-full min-h-[70vh] text-gray-900 my-12 px-4">

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setuser } from "../store/userSlice";
 import homeImage from "../assests/image.png";
-
+//signin component
 const SignIn = () => {
   const [formData, setFormData] = useState({
     name: "",

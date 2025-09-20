@@ -5,7 +5,7 @@ import homeImage from "../assests/image.png";
 import homeImage2 from "../assests/image2.png";
 import homeImage3 from "../assests/image3.png";
 import homeImage4 from "../assests/image4.png";
-
+//home component
 const Home = () => {
   return (
     <main className="bg-gray-100 min-h-screen py-10 px-4 sm:px-6 lg:px-8">
